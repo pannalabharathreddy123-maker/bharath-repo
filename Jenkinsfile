@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
+        stage('Clone') {
             steps {
                 // Checkout the SCM configured for the pipeline
                 checkout scm
